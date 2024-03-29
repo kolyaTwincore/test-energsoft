@@ -1,0 +1,21 @@
+name: Bug Report
+description: Report a bug here
+title: "[P0]: "
+labels: ["p0"]
+assignees: ["kolyaTwincore"]
+body:
+  - type: textarea
+    id: bug-description
+    attributes:
+      label: Description of the bug
+      description: Tell us what bug you encountered and what should have happened
+    validations:
+      required: true
+  - type: textarea
+    id: steps-to-reproduce
+    attributes:
+      label: Steps To Reproduce
+      description: Steps to reproduce the behavior.
+      placeholder: Please write the steps in a list form
+    validations:
+      required: true
