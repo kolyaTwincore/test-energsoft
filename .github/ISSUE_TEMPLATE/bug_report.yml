@@ -1,13 +1,9 @@
 name: Bug Report
 description: File a bug report here
-title: "[BUG]: "
-labels: ["bug"]
+title: "[P0]: "
+labels: ["p0"]
 assignees: ["kolyaTwincore"]
 body:
-  - type: markdown
-    attributes:
-      value: |
-        Thanks for taking the time to fill out this bug report!!!
   - type: checkboxes
     id: new-bug
     attributes:
@@ -29,19 +25,5 @@ body:
       label: Steps To Reproduce
       description: Steps to reproduce the behavior.
       placeholder: Please write the steps in a list form
-    validations:
-      required: true
-  - type: dropdown
-    id: versions
-    attributes:
-      label: Which version of the app are you using?
-      description: If this issue is occurring on more than 1 version of the app, select the appropriate versions.
-      multiple: true
-      options:
-       - 1.0.0
-       - 1.1.0
-       - 1.2.0
-       - 2.0.0
-       - 2.1.0
     validations:
       required: true
