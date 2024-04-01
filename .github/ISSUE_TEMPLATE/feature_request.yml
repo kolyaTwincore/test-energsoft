@@ -1,0 +1,17 @@
+name: Feature Request
+description: Request a feature
+title: "[P1]: "
+labels: ["p1"]
+assignees: [""]
+body:
+  - type: textarea
+    id: feature-description
+    attributes:
+      label: Description of the feature
+      description: Tell us what feature you want to have
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: |
+        Add additional information about you feature
